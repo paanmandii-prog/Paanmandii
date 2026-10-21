@@ -18,12 +18,12 @@ interface LeafConfig {
 }
 
 const ORBIT_LEAVES: LeafConfig[] = [
-  { id: 1, startAngle: 0, duration: 28, sizeDesktop: 72, sizeMobile: 48, tilt: -12, src: '/images/paan-leaf-1.png', alt: 'Fresh Banarasi betel leaf' },
-  { id: 2, startAngle: 60, duration: 28, sizeDesktop: 64, sizeMobile: 44, tilt: 15, src: '/images/paan-leaf-2.png', alt: 'Tender Magahi betel leaf' },
-  { id: 3, startAngle: 120, duration: 28, sizeDesktop: 78, sizeMobile: 52, tilt: -8, src: '/images/paan-leaf-3.png', alt: 'Aromatic Calcutta betel leaf' },
-  { id: 4, startAngle: 180, duration: 28, sizeDesktop: 68, sizeMobile: 46, tilt: 22, src: '/images/paan-leaf-4.png', alt: 'Crisp green betel leaf' },
-  { id: 5, startAngle: 240, duration: 28, sizeDesktop: 74, sizeMobile: 50, tilt: -18, src: '/images/paan-leaf-5.png', alt: 'Hand-sorted farm betel leaf' },
-  { id: 6, startAngle: 300, duration: 28, sizeDesktop: 66, sizeMobile: 44, tilt: 10, src: '/images/paan-leaf-6.png', alt: 'Fresh wholesale paan leaf' },
+  { id: 1, startAngle: 0, duration: 28, sizeDesktop: 72, sizeMobile: 48, tilt: -12, src: '/images/paan-leaf-1.webp', alt: 'Fresh Banarasi betel leaf' },
+  { id: 2, startAngle: 60, duration: 28, sizeDesktop: 64, sizeMobile: 44, tilt: 15, src: '/images/paan-leaf-2.webp', alt: 'Tender Magahi betel leaf' },
+  { id: 3, startAngle: 120, duration: 28, sizeDesktop: 78, sizeMobile: 52, tilt: -8, src: '/images/paan-leaf-3.webp', alt: 'Aromatic Calcutta betel leaf' },
+  { id: 4, startAngle: 180, duration: 28, sizeDesktop: 68, sizeMobile: 46, tilt: 22, src: '/images/paan-leaf-4.webp', alt: 'Crisp green betel leaf' },
+  { id: 5, startAngle: 240, duration: 28, sizeDesktop: 74, sizeMobile: 50, tilt: -18, src: '/images/paan-leaf-5.webp', alt: 'Hand-sorted farm betel leaf' },
+  { id: 6, startAngle: 300, duration: 28, sizeDesktop: 66, sizeMobile: 44, tilt: 10, src: '/images/paan-leaf-6.webp', alt: 'Fresh wholesale paan leaf' },
 ]
 
 export default function HeroBanarasiPaan() {
@@ -140,7 +140,7 @@ export default function HeroBanarasiPaan() {
               <div className="relative z-20 w-[220px] h-[220px] sm:w-[290px] sm:h-[290px] lg:w-[320px] lg:h-[320px] transition-transform duration-500 animate-hero-entrance">
                 <div className="relative w-full h-full animate-hero-float">
                   <Image
-                    src="/images/hero-banarasi-paan.png"
+                    src="/images/hero-banarasi-paan.webp"
                     alt="Authentic Banarasi Meetha Paan prepared with Chaandi Vark, Gulkand and fragrant cloves"
                     fill
                     priority

@@ -397,7 +397,7 @@ export default function HomeInteractive({
             <div className="lg:col-span-6 relative">
               <div className="relative aspect-4/3 w-full rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-lg">
                 <Image
-                  src="/images/paan-ingredients-overhead.jpg"
+                  src="/images/paan-ingredients-overhead.webp"
                   alt="Traditional Indian Paan Mandi ingredients and preparation spices"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
